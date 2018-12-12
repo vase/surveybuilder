@@ -1,9 +1,6 @@
 const { json, send } = require('micro')
 
 
-// var input = require('./input.json')
-// var fs = require('fs')
-
 Object.defineProperty(Array.prototype, 'getIndexBy', {
   enumerable: false,
   value: function (name, value) {
