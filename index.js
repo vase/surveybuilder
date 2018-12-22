@@ -631,7 +631,7 @@ module.exports = (req,res) => {
         "BlockElements":[]
       }
 
-      //STARTING TO GENERATE TERMINATION LOGIC
+      //STARTING TO GENERATE TERMINATION_LOGIC
       var checkTermination = input.SurveyElements.getIndexBy('id', 'TERMINATE')
       var checkSurveyBlock = output.SurveyElements.getIndexBy('PrimaryAttribute', 'Survey Blocks')
       var termFromQ = input.SurveyElements[checkTermination].logic.from
